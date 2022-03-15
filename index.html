@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <div class="container main-container">
+
+            <section class="section sectionProfile" id="profile">
+                <h1>Kirill Korolev</h1>
+            </section>
+
+            <section class="section" id="contacts">
+                <h2 class="sectionTitle">Contacts</h2>
+
+                <ul>
+                    <li><strong>Location:</strong> Minsk, Belarus</li>
+                    <li><strong>Phone</strong> +375 33-3530988</li>
+                    <li><strong>telegram:</strong> <a href="https://t.me/tryntryn">@tryntryn</a></li>
+                    <li><strong>discord:</strong> JiRad#6297</li>
+                    <li><strong>email:</strong> kirilllkorolev@gmail.com</li>
+                </ul>
+            </section>
+
+            <section class="section" id="summary">
+                <div class="blockStructure">
+                    <h2 class="sectionTitle">About me</h2>
+
+                    <p class="aboutMe">I am 23 years old, I worked as a driver in company 21vek.by. I have been interested in programming since my school days. I studied at the Belarusian State Academy of Communications and i got a degree in Infocommunication Systems. I
+                        want to progress further and study FrontEnd/JavaScript in RS-School.</p>
+                </div>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="sectionTitle">Skills</h2>
+                <div class="blockStructure contactsItem">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS/SASS</li>
+                        <li>Git</li>
+                        <li>С# (Basic)</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="code">
+                <h2 class="sectionTitle">Code Example</h2>
+
+                <p><code class="code">
+    let loginUser = prompt('Кто там?');<Br>
+    if (loginUser == 'admin') { <Br>
+        let passUser = prompt('Пароль?') <Br>
+        if (passUser == 'Я главный') { <Br>
+            alert('Здравствуйте!') <Br>
+        } else if (passUser == '' || passUser == null) { <Br>
+            alert('отменено') <Br>
+        } else { <Br>
+            alert('Я вас не знаю') 
+        } <Br>
+    } else if (loginUser == '' || loginUser == null) { <Br>
+        alert('отменено') <Br>
+    } else { <Br>
+        alert("Я вас не знаю!")
+    } <Br>
+    </code></p>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="sectionTitle">Education</h2>
+
+                <ul>
+                    <li><strong>University</strong>: Belarusian State Academy of Communications</li>
+                    <li><strong>Courses</strong>:
+                        <ul>
+                            <li>Cisco (CCNA)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="language">
+                <h2 class="sectionTitle">Language</h2>
+
+                <ul>
+                    <li><strong>Russian</strong> - native speaker</li>
+                    <li><strong>English</strong> - A2 (A1-A2)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <a href="https://rs.school/"><img src="rs_school_js.svg" alt=" " class="img1" title="rs_school-js" /></a>
+    </footer>
+
+
+</body>
+
+</html>
